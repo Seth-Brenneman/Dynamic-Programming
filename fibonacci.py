@@ -33,8 +33,9 @@ def fibonacci_tabulated(n):
     return table[n]
 
 
-print(fibonacci_brute_force(1)) #1
-print(fibonacci_brute_force(2)) #1
-print(fibonacci_memoized(4)) #3
-print(fibonacci_memoized(7)) #13
-print(fibonacci_tabulated(50)) #12586269025
+if __name__ == '__main__':
+    print(fibonacci_brute_force(1)) #1
+    print(fibonacci_brute_force(2)) #1
+    print(fibonacci_memoized(4)) #3
+    print(fibonacci_memoized(7)) #13
+    print(fibonacci_tabulated(50)) #12586269025
